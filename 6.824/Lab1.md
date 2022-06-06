@@ -18,7 +18,7 @@
     - 上述这些观点或许可以成为MapReduce进化的方向；尝试在网上找到了一个MapReduce2.0的概念[6],但是这个概念并没有从数据库系统设计角度去迭代MapReduce，更关注如何做集群拓展和高可用。
     - 或许这也是MapReduce系统想要做到和区分于传统数据库的一种差异化策略？因为本身将原始数据存入数据库就多了一步抽象的处理，
 - 实现\
-    ![mapreduce](6.824/assets/mapreduce.jpg)\
+    ![mapreduce](assets/mapreduce.jpg)\
     以上是MapReduce数据处理的流程图，MapReduce集群由一个master和多个worker组成，最终目的是将输入文件按照用户定义的处理方式（map和reduce函数）处理并输出成输出文件
     具体过程如下：
     1. 用户程序将输入文件切分成大小可配置的16～64MB片段，然后在多个集群中的节点上启动用户程序
