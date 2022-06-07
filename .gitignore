@@ -14,3 +14,8 @@ _book
 *.epub
 *.mobi
 *.pdf
+.vscode/settings.json
+6.824/.DS_Store
+*.iml
+*.xml
+*.ide
